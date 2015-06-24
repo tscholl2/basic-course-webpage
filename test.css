@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+	background-color:#cc99ff;	/*#bbe261, #f09010, #ffc234 */
+  min-height: 100vh;
+}
+
+header {
+  min-height: 50px;
+  background-color: #fd124a;
+  text-align: center;
+  padding: 5px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+div .navbar-link {
+  flex-grow: 1;
+}
+
+.navbar-link a {
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+content {
+  min-height: 100px;
+}
+
+footer {
+  min-height: 50px;
+  background-color: #fffffa;
+}
